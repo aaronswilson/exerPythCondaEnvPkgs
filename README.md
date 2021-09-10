@@ -22,7 +22,7 @@
   
 ## Edit your README.md file
 
-* [ ] In an editor of your choice (i.e. VSCode) edit this README.md file to add the answers requested in the tables.
+* [x] In an editor of your choice (i.e. VSCode) edit this README.md file to add the answers requested in the tables.
 
 ## Follow along with this tutorial
 
@@ -34,7 +34,7 @@
 
 ## Conda Concepts
 
-* [ ] Describe the Conda concepts used in the video and listed in the table below.
+* [x] Describe the Conda concepts used in the video and listed in the table below.
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
