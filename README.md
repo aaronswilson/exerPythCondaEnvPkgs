@@ -59,14 +59,18 @@
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
 ```
-#Paste your results here.
-
+C:\Users\Aaron Wilson>conda env list
+# conda environments:
+#
+base                  *  C:\Users\Aaron Wilson\anaconda3
+ai37                     C:\Users\Aaron Wilson\anaconda3\envs\ai37
+da35                     C:\Users\Aaron Wilson\anaconda3\envs\da35
 
 ```
 * What command would you use to remove the environments you created for this exercise from your computer?
 
 ```
-#Type the command here.
+conda env remove -n "ENV_NAME"
 
 ```
 ## 2021 Update
