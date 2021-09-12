@@ -38,13 +38,13 @@
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(enter description or short answer here)|
-|What is the default package manager in Python?            |(enter description or short answer here)|
+|What is the purpose of having different environments?     |Having different environments allows you to create an isolated place to work on individual projects with access to the specific applications that you will be needing without creating excess clutter. |
+|What is the default package manager in Python?            |Python 3.7.0 |
 |How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
-|`conda list`       |(enter description or short answer here)|
-|`conda env list`       |(enter description or short answer here)|
+|`conda list`       |Shows all default packages that are installed with anaconda. |
+|`conda env list`       |Shows a list of all environments that we have created. |
 |How do you keep your base environment unchanged?       |(enter description or short answer here)|
-|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(enter description or short answer here)|
+|What is the link to the Conda cheat sheet? (link in video notes is broken)      |https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf |
 |`conda create --name XXXX`       |(enter description or short answer here)|
 |`source activate XXXX`       |(enter description or short answer here)|
 |`conda install YYYY`       |(enter description or short answer here)|
