@@ -40,21 +40,21 @@
 |     ---     |                     ---                     |
 |What is the purpose of having different environments?     |Having different environments allows you to create an isolated place to work on individual projects with access to the specific applications that you will be needing without creating excess clutter. |
 |What is the default package manager in Python?            |Python 3.7.0 |
-|How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
+|How do you manage environments and packages in Anaconda?  |Environments can be managed by looking up the environment list 'conda env list' and then typing 'conda activate "name of env". Additionally, packages in the current env can be looked up using the 'conda list' command. |
 |`conda list`       |Shows all default packages that are installed with anaconda. |
 |`conda env list`       |Shows a list of all environments that we have created. |
-|How do you keep your base environment unchanged?       |(enter description or short answer here)|
+|How do you keep your base environment unchanged?       |Create new environments where changes can be made. |
 |What is the link to the Conda cheat sheet? (link in video notes is broken)      |https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf |
-|`conda create --name XXXX`       |(enter description or short answer here)|
-|`source activate XXXX`       |(enter description or short answer here)|
-|`conda install YYYY`       |(enter description or short answer here)|
-|channels in Conda       |(enter description or short answer here)|
-|`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
-|`conda config --show channels`       |(enter description or short answer here)|
-|`conda config --add channels ZZZZ`       |(enter description or short answer here)|
-|conda-forge.org       |(enter description or short answer here)|
-|`source deactivate`       |(enter description or short answer here)|
-|`conda config --get channels`       |(enter description or short answer here)|
+|`conda create --name XXXX`       |This command is used to create a new environment. |
+|`conda activate XXXX`       |The command allows the user to enter the previously created environment. |
+|`conda install YYYY`       |This command allows the user to download packages from the default channel/package installer. |
+|channels in Conda       |Channels are, to my understanding, a place where conda goes to look for the various packages that are being installed; like a package installer. |
+|`conda install -c ZZZZ YYYY`       |This command allows the user to look into a specific channel/package installer "ZZZZ" to download a specific package "YYYY". |
+|`conda config --show channels`       |This command allows the user to see what channels have been used previously to download packages. |
+|`conda config --add channels ZZZZ`       |This commonad allows the user to add a specific channel to the channel list for future use when adding packages. |
+|conda-forge.org       |Conda-forge is a channel that can be added to the channel list and provides access to additional packages. |
+|`conda deactivate`       |Closes the activated environment. |
+|`conda config --get channels`       |Allows the user to see the accessible channels with ranking in priority. |
 
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
